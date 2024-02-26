@@ -1,0 +1,230 @@
+.strategys{
+    margin-top: 125px;
+    margin-bottom: 117px;
+    .strategys__text{
+            
+            h1{
+                display: flex;
+                justify-content: center;
+                font-weight: 700;
+                font-size: 28px;
+            }
+            p{
+                display: flex;
+                justify-content: center;
+                font-weight: 400;
+                font-size: 20px;
+                margin:8px 0 32px;
+            }
+    }
+    .strategy__cards{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 10px;
+        list-style: none;
+      .strategy__card{
+        max-width: 350px;
+        border: 1px solid gray;
+           border-radius: 10px; 
+
+
+        .strategy__img1{
+           img{
+            border-top-left-radius: 10px; 
+            border-top-right-radius: 10px;
+           }
+        }
+        
+        
+        .strategy__text{
+            padding: 0 24px;
+            p{
+              margin: 32px 0 16px;  
+            }
+            h2{
+                margin: 30px 0 40px;
+            }
+
+        }
+
+    }  
+
+    }
+    }
+
+
+
+
+
+    .tebles{
+        margin-bottom: 150px;
+        .tables__text{
+           h1{
+                display: flex;
+                justify-content: center;
+                font-weight: 700;
+                font-size: 28px;
+            }
+            p{
+                display: flex;
+                justify-content: center;
+                font-weight: 400;
+                font-size: 20px;
+                margin:8px 0 32px;
+            }
+           
+        }
+        .table{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+            .table__card{
+                border-radius: 4px;
+                padding:24px 0 32px;
+                text-align: center;
+                 box-shadow: 1px 1px 3px 1px #b3b1b1;
+                
+                .table__free{
+                    h2{
+        
+                    }
+                    p{
+                        margin: 8px 72px 16px;
+                    }
+                }
+                .table__money{
+                    display: flex;
+                    justify-content: center;
+                    h1{
+                        font-weight: 700;
+                        font-size: 76px;
+                        color: #02897A;
+                    }
+                    .money__per{
+                        display: grid;
+                        align-items: center;
+                        h4{
+                            display: flex;
+                            justify-content: start;
+                            font-weight: 700;
+                            font-size: 24px;
+                            margin-top: 6px;
+                            color: #02897A;
+                        }
+                        p{
+                            display: grid;
+                            align-items: center;
+                            color:#AFAFAF;
+                            margin-bottom: 20px;
+;
+                        }
+                    }
+                }
+                
+                }
+                .table__text{
+                   h4{
+                    display: grid;
+                    font-size: 16px;
+                    font-weight: 500;
+                    margin: 16px 38px;
+                    gap: 16px;
+
+                   } 
+                }
+                .table__btn {
+                    display: flex;
+                    justify-content: center;
+                    button{
+                        background: #02897A;
+                        color: white;
+
+                    }
+                }
+                
+                
+            }
+            .table__card:hover{
+                    background: #02897A;
+                    color: white;
+                    transition: 0.5s;
+                .table__money{
+                    h1{
+                        color: white;
+                    }
+                    .money__per{
+                        h4{
+                            color: white;
+                        }
+                    }
+                }
+                .table__btn button{
+                    background: white;
+                    color: #02897A;
+                }
+
+        }
+
+
+
+    }
+
+
+
+    .clients{
+        margin-bottom: 160px;
+        .clients__text{
+            display: grid;
+            justify-content: center;
+            gap: 8px;
+flex-basis: 60%;            
+            h1{
+                text-align: center;
+            }
+            p{
+                text-align: center;
+                max-width: 100%;
+            }
+        }
+        .client__cards{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 50px;
+            .client__card{
+                width: 330px;
+                padding: 26px;
+                border: 1px solid rgb(185, 184, 184);
+                border-radius: 4px;
+                .client__product{
+                    p{
+                        margin: 16px 0 16px;
+                    }
+                }
+
+
+                .avatar{
+                    display: flex;
+                    gap: 14px;
+                    .avatar__name{
+                        display: grid;
+                        align-items: center;
+                        h3{
+                            font-weight: 600;
+                            font-size: 16px;
+                            color: #02897A;
+                        }
+                        h4{
+                            font-weight: 500;
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+
+        }
+
+    }

@@ -1,0 +1,33 @@
+.joins{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #02897A;
+    padding: 49px 10px 0 0;
+    border-radius: 30px;
+    margin-bottom: 50px;
+    .join__text{
+        color: white;
+        width: 510px;
+        display: grid;
+        align-items: center;
+        margin-left: 51px;
+        gap: 20px;
+        .join__btn button{
+            color: #02897A;
+            padding: 10px 34px;
+            border-radius: 6px;
+            border: none;
+            font-weight: 600;
+            font-size: 20px;
+        }
+    }
+    .join__img{
+        display: flex;
+        max-width: 500px;
+        img{
+            max-width: 100%;
+        }
+    }
+
+}
